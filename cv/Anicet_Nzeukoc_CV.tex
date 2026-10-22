@@ -1,0 +1,219 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
+
+\hypersetup{pdftitle={Anicet Nzeukoc -- CV}, pdfauthor={Anicet Nzeukoc}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section titles: uppercase, bold, full-width rule underneath
+\titleformat{\section}{\normalsize\bfseries\uppercase}{}{0pt}{}[\vspace{-3pt}\hrule height 0.4pt]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+% Section content is indented; bullets (centred dot) hang in the indentation
+\newenvironment{block}{\begin{list}{}{\setlength{\leftmargin}{1.6em}\setlength{\topsep}{0pt}%
+  \setlength{\partopsep}{0pt}\setlength{\itemsep}{0pt}\setlength{\parsep}{0pt}}\item[]}{\end{list}}
+\setlist[itemize]{label=\textperiodcentered, leftmargin=0pt, labelsep=1.1em, itemsep=1pt, topsep=2pt, parsep=0pt}
+
+% \entry{Title}{Dates}: bold title, italic dates on the right
+\newcommand{\entry}[2]{\textbf{#1}\hfill\textit{#2}\par}
+% \job{Organisation}{Dates}{Role}{Place}
+\newcommand{\job}[4]{\textbf{#1}\hfill #2\par\textit{#3}\hfill\textit{#4}\par}
+\newcommand{\gap}{\par\vspace{0.6em}}
+
+\begin{document}
+
+% -------------------- HEADER --------------------
+\begin{center}
+{\LARGE\bfseries ANICET NZEUKOC}
+\end{center}
+\vspace{1.4em}
+
+\begin{minipage}[t]{0.52\textwidth}
+University of Montreal (UdeM)\\
+Department of Economics (CIREQ)\\
+3150 Jean-Brillant Street\\
+Montreal (Quebec, Canada), H3C 3J7\\
+Office: C6070-10
+\end{minipage}%
+\begin{minipage}[t]{0.48\textwidth}
+Email: \href{mailto:nzeukoca@gmail.com}{nzeukoca@gmail.com}\\
+Website: \href{https://anicetnzeu.github.io}{anicetnzeu.github.io}\\
+GitHub: \href{https://github.com/AnicetNzeu}{github.com/AnicetNzeu}\\
+LinkedIn: \href{https://www.linkedin.com/in/anicet-nzeukoc-660000156}{in/anicet-nzeukoc-660000156}
+\end{minipage}
+
+\vspace{1.6em}
+\rule{0.5\textwidth}{0.4pt}
+
+% -------------------- SUMMARY --------------------
+\section*{Summary}
+\begin{block}
+I am a PhD candidate in Economics at the University of Montreal and a member of CIREQ, supervised by
+Professors Marine Carrasco and René Garcia. My research fields are econometrics and financial
+econometrics: functional data analysis, structural breaks, option pricing and risk-neutral densities,
+and machine learning methods for structural models. I develop instrumental-variable and change-point
+methods to recover and monitor the probability distributions that option markets assign to future asset
+prices. I bring 5+ years of experience in quantitative research across Cameroon and Canada, and I work
+in French and English.
+\end{block}
+
+% -------------------- EDUCATION --------------------
+\section*{Education}
+\begin{block}
+\entry{University of Montreal (UdeM), CIREQ}{2022--}
+PhD candidate in Economics, Canada. Supervisors: Prof.\ Marine Carrasco and Prof.\ René Garcia
+\gap
+\entry{University of Yaoundé II}{2021--2022}
+MSc in Economics, Cameroon
+\gap
+\entry{Sub-regional Institute of Statistics and Applied Economics (ISSEA)}{2018--2021}
+Engineer in Statistics and Economics (ISE), Cameroon
+\gap
+\entry{University of Dschang}{2016--2018}
+MSc in Applied Mathematics, Cameroon
+\gap
+\entry{University of Dschang}{2013--2016}
+BSc (Licence) in Mathematics and Computer Science, Cameroon
+\end{block}
+
+% -------------------- EXPERIENCE --------------------
+\section*{Professional and Research Experience}
+\begin{block}
+\job{Télé-université (TELUQ)}{April 2026 -- August 2026}{Research Assistant (part-time)}{Montréal}
+\begin{itemize}
+\item Governance, directors' and officers' insurance and executive compensation.
+\item Built a firm-year panel on more than 220 Canadian public firms (2013--2024) with an automated
+      extraction pipeline in Python.
+\item Applied difference-in-differences and event-study methods.
+\end{itemize}
+\gap
+\job{HEC Montréal}{December 2022 -- August 2025}{Research Assistant, with Prof.\ Pierre-Olivier Pineau}{Montréal}
+\begin{itemize}
+\item Stochastic frontier analysis of energy efficiency across the ten Canadian provinces.
+\item Drafted ``Measuring Provincial Energy Efficiency in Canada: A Stochastic Frontier Analysis''.
+\end{itemize}
+\gap
+\job{Scikoop Inc.\ / IVADO}{January 2023 -- June 2023}{Research Consultant, IVADO Scientist in Residence program}{Montréal}
+\begin{itemize}
+\item Statistical tools for equity, diversity and inclusion in public-health and social-science research.
+\end{itemize}
+\gap
+\job{ISSEA}{October 2021 -- July 2022}{Research Assistant, with Dr.\ Ignace Kamga}{Yaoundé}
+\begin{itemize}
+\item Macroeconomic forecasting for the CEMAC countries.
+\item Organised the weekly ``Research Wednesday'' seminar.
+\end{itemize}
+\gap
+\entry{Teaching}{2024--2025}
+Lecturer, Econometrics I (UdeM, ECN1260); Fall 2024\\
+Lecturer, Principles of Economics (UdeM, ECN1000); Fall 2025
+\gap
+\entry{Teaching assistant}{2021--}
+Economic Data Analysis (UdeM, ECN1160); Fall 2025 and Fall 2026, for Prof.\ Marine Carrasco\\
+Advanced Econometrics Theory (UdeM, ECN7060, PhD); Winter 2026, for Prof.\ Marine Carrasco\\
+Numerical Methods in Economics (UdeM, ECN6338); Winter and Fall 2025, for Prof.\ William McCausland\\
+Techniques of Economic Analysis II (UdeM, ECN1075); Summer 2025, for Prof.\ Eugène Deta'a\\
+Econometrics I (UdeM, ECN1260); Winter 2025, for Prof.\ Amal Serre\\
+Applied Econometrics (UdeM, ECN2260); Winter 2024, for Prof.\ William Arbour\\
+Microeconomic Theory I (UdeM, ECN2040); Winter and Fall 2023, for Prof.\ Andriana Bellou\\
+Microeconomics (ISSEA, engineering-economist students); 2021--2022, for Dr.\ Ignace Kamga
+\gap
+\entry{Research in progress}{}
+``Instrumental Variable Estimation of Risk-Neutral Density using Functional Linear Models,''
+with Marine Carrasco and René Garcia.\\
+``Deep Surrogates in Option Pricing Models for Risk-Neutral Density Estimation,'' with Rostand Tchouakam.\\
+``Detecting and Locating Structural Changes in a Sequence of Estimated Risk-Neutral Densities,''
+work in progress.
+\end{block}
+
+% -------------------- AWARDS --------------------
+\section*{Awards and Fellowships}
+\begin{block}
+Fonds de recherche du Québec -- Société et culture (FRQSC), Doctoral Research Fellowship (B2), 2026--2027\\
+First Prize, Poster Competition, 90th ACFAS Conference, Université de Montréal, 2023\\
+Doctoral Admission Fellowship, Department of Economics, UdeM, 2022--\\
+Tuition Fee Exemption Scholarship, University of Montreal, 2022--\\
+Government of Cameroon Admission Scholarship, ISSEA, 2018--2021
+\end{block}
+
+% -------------------- AFFILIATIONS --------------------
+\section*{Affiliations}
+\begin{block}
+Centre interuniversitaire de recherche en économie quantitative (CIREQ), 2023--\\
+Society for Financial Econometrics (SoFiE), 2024--
+\end{block}
+
+% -------------------- TECHNICAL STRENGTHS --------------------
+\section*{Technical Strengths}
+\begin{block}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{Programming} & Python (NumPy, Pandas, PyTorch, QuantLib, scikit-learn), R, MATLAB, Stata, SQL, Git \\
+\textbf{Data}        & OptionMetrics Ivy DB, large-scale time series, parallel computing, reproducible pipelines \\
+\textbf{Office}      & \LaTeX, Excel (advanced), PowerPoint \\
+\end{tabularx}
+\end{block}
+
+% -------------------- SERVICE AND TALKS --------------------
+\section*{Volunteering Activities and Talks}
+\begin{block}
+\entry{Chair, Quebec PhD Workshop in Economics, Statistics and Finance (QPESF)}{2022--}
+Organiser and moderator of a weekly doctoral seminar in economics, statistics and finance across Quebec
+universities.
+\gap
+\entry{Co-organiser, CIREQ Doctoral Conference on Economics and Finance}{April 2026}
+Organising committee with Prof.\ Marine Carrasco (UdeM), Jackson Montelpare (McGill) and Zahraa Arkahdan
+(Concordia).
+\gap
+\entry{Volunteer, Cap Campus (Université de Montréal)}{2024--}
+Workshops in applied mathematics, finance and statistics for high-school and college students.
+\gap
+\entry{Talks}{2023--2026}
+41st Annual Meeting of the Canadian Econometrics Study Group (CESG), Simon Fraser University,
+Vancouver; October 2026 (poster)\\
+65th Annual Congress of the Société canadienne de science économique (SCSE), Québec City; May 2026\\
+CIREQ Doctoral Conference on Econometrics and Finance, Université de Montréal; April 2025\\
+Doctoral seminar, Department of Economics, Université de Montréal; May 2025 and December 2025\\
+Inclusive Society Colloquium, Université Laval, Québec; June 2023\\
+ACFAS Conference, 90th edition, Université de Montréal; May 2023 (poster)
+\end{block}
+
+% -------------------- LANGUAGES --------------------
+\section*{Language and Other Interests}
+\begin{block}
+French (native), English (fluent), football, reading, writing
+\end{block}
+
+% -------------------- ABSTRACTS --------------------
+\section*{Abstract of Some Selected Work in Progress}
+\begin{block}
+\textbf{Instrumental Variable Estimation of Risk-Neutral Density using Functional Linear Models}\\
+With Marine Carrasco and René Garcia\\
+\textit{Nonparametric estimation of the risk-neutral density from a time series of European option prices.
+Pooling contracts across dates enlarges the sample but makes the strike endogenous, because the exchange
+sets strikes in response to the same shocks that move prices. The paper develops an instrumental-variable
+sieve estimator in Hermite basis functions, using lagged values of the index and of the VIX and SKEW
+indices as instruments, together with an estimator-free confidence band for the entire density that
+accommodates serially dependent pricing errors. The Monte Carlo design is the estimated model written in
+reduced form, so the experiment reproduces the measured degree of endogeneity. Applied to S\&P 500
+options, OptionMetrics, 1996--2022.}
+
+\vspace{0.4em}
+\hspace*{4em}\textbf{JEL Classification:} C14, C26, C58, G13\\
+\hspace*{4em}\textbf{Keywords:} Risk-Neutral Density, Endogeneity, Instrumental Variables, Sieve Estimation
+\gap\gap
+\textbf{Deep Surrogates in Option Pricing Models for Risk-Neutral Density Estimation}\\
+With Rostand Tchouakam
+\gap\gap
+\textbf{Detecting and Locating Structural Changes in a Sequence of Estimated Risk-Neutral Densities}\\
+Sole-authored
+\end{block}
+
+\end{document}

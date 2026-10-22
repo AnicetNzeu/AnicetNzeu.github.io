@@ -1,0 +1,14 @@
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# OS / Dropbox
+desktop.ini
+Thumbs.db
+.DS_Store
+.dropbox
+.dropbox.attr

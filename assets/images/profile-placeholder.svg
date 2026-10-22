@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="640" viewBox="0 0 520 640" role="img" aria-label="Anicet Nzeukoc">
+  <rect width="520" height="640" fill="#e8edf5"/>
+  <circle cx="260" cy="250" r="105" fill="#c7d2e4"/>
+  <path d="M70 640c0-120 85-200 190-200s190 80 190 200z" fill="#c7d2e4"/>
+  <text x="260" y="272" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="64" font-weight="600" fill="#2563eb">AN</text>
+</svg>
