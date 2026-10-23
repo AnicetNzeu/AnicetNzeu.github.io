@@ -2,7 +2,9 @@
 // The section stays hidden when there is none (or when the API is unreachable).
 (function () {
   var USER = 'AnicetNzeu';
-  var SKIP = [(USER + '.github.io').toLowerCase()];
+  // The .github.io repository holds this site; the repository named after the
+  // account holds only the profile README. Neither one is a project.
+  var SKIP = [(USER + '.github.io').toLowerCase(), USER.toLowerCase()];
   var section = document.getElementById('public-repos');
   var grid = document.getElementById('repo-grid');
   if (!section || !grid) return;
